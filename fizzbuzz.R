@@ -41,7 +41,7 @@ both <- function(n,m) {
   if (! length(n) == length(m)) {
     stop("both n and m must be of the same length")
   } 
-  # Check if first value (m) is smaller
+  # Check if first value (m) is smaller than (n) 
   if (min(m - n) < 0) {
     stop(" msmaller than n ( n should be bigger or equal to m ")
   }
