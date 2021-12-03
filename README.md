@@ -1,4 +1,4 @@
-# FizzBuzz using R 
+## FizzBuzz using R 
 
 - I made this repository to solve the problem of FezzBuzz using R; this problem asks you to create a function that can define if the number is divisible by three or not also if the number is derivable by five or not. 
 
