@@ -1,0 +1,2 @@
+# Show SQL files as SQL
+*.sql linguist-detectable=true
