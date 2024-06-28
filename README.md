@@ -6,4 +6,4 @@
 
 -  there is a function called Both the purpose of it is to check whether the numbers in each column have the same length or not to create a matrix of the resulting fizz , buzz, and fizzbuzz.
 
-- All codes are written in R 
+- All codes are written in R and SQL
