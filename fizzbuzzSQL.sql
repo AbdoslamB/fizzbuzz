@@ -1,10 +1,10 @@
 WITH cte(n) AS
 (
-    SELECT 1 -- Anchor part
+    SELECT 1
     UNION ALL
     SELECT n + 1
     FROM cte
-    WHERE n < 15 -- Recursive part
+    WHERE n < 15 
 )
 SELECT 
     CASE
