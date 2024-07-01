@@ -18,9 +18,7 @@ FROM cte;
 --- For a column in the data sheet 
 WITH cte(n) AS
 (
-
 select n from abdoslam_db.childrent
-
 )
 SELECT 
     CASE
@@ -30,3 +28,4 @@ SELECT
         ELSE CAST(n AS VARCHAR(4))
     END
 FROM cte;
+
